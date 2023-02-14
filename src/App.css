@@ -1,0 +1,60 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.tododiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 450px;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.tododiv p {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.tododiv img {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.inputboxdiv input {
+  padding: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  width: 350px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.inputboxdiv button {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 40px;
+  background-color: greenyellow;
+}
+
+.inputboxdiv button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
